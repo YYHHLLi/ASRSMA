@@ -68,7 +68,7 @@ You can also retraining the model yourself by using the following command:
 ```bash
 OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES='0' torchrun --nproc_per_node pretrain.py --data_dir Dataset/Pertrain
 ```
-#### Step 1: Finetuning**
+#### Step 2: Finetuning**
 ```bash
 OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES='0' torchrun --nproc_per_node train.py --data_dir Dataset/Finetuning
 ```
