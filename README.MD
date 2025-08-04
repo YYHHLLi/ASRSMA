@@ -1,14 +1,13 @@
 # ASRSMA
-Code and trained model for our paper **ASRSMA: Atomic-scale and Structure-based Modeling for RNA–small Molecule Binding Affinity Prediction via Contrastive Pretraining**
 
 ## Installation
 You can set up the environment using **Anaconda** 
 
 ```bash
-git clone https://github.com/Mercuryhs/GAABind.git
-cd ASRMSA
+git clone https://github.com/xxx/ASRSMA.git
+cd ASRSMA
 conda env create -f environment.yml
-conda activate ASRMSA
+conda activate ASRSMA
 ```
 <br>
 ## Dataset
